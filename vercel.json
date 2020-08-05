@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "https://vercel-api-test-beta.vercel.app/$1"
+        }
+    ]
+}
