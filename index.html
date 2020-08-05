@@ -21,7 +21,7 @@
             },
             async created () {
                 const response = await fetch('/api/')
-                this.answer = response
+                console.log(JSON.stringify(response, undefined, 4))
             }
         })
     </script>
